@@ -24,7 +24,7 @@ def mining_pubs(tipo):
     docs = handle.read()  
     # numero de autores
     if(tipo == "AU"):
-        columna1 = re.findall(r"PMID- (\d*)", docs)
+        columna1 = re.findall(r'PMID-.(.+)|AU  - (.+[A-Z-a-z])', docs)
         columna2 = re.findall(r'DP  -.(.+[A-Z-a-z-0-9])', docs)
         nombre_dataset = ['Pmid','NrAutor'] 
         contenedor1 = list()        
