@@ -8,4 +8,15 @@ Examen Parcial 2
 - Id. del producto: 00325-81129-02611-AAOEM
 - Tipo de sistema: Sistema operativo de 64 bits, procesador x64
 - Lápiz y entrada táctil: La entrada táctil o manuscrita no está disponible para esta pantalla
+# Caracteristicas de Python 
+- Versión Anaconda3/ Python 3.8
+- Paquetes usados:
+  1. Pandas
+  2. Biophyton
+  3. Matplotlib
+  4. Statics  
 # Explicacion de la data
+- Pandas: manejo y análisis de estructuras de datos.
+- Biopython: Cuantifica y realiza cálculos con datos biológicos
+- Matplotlib: Genera de gráficos a partir de datos contenidos en listas o arrays
+- Statics: calcula datos estadisticos 
